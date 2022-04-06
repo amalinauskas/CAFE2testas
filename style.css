@@ -1,0 +1,230 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.blue {
+  background: linear-gradient(to bottom, #424add, #232471);
+  width: 100%;
+  height: 30rem;
+  padding: 0.75rem;
+}
+
+.google {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.miniBlueContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #e1dede;
+  width: 90%;
+  letter-spacing: 0.1rem;
+  font-weight: lighter;
+}
+.miniBlueContainer h1 {
+  font-weight: lighter;
+  color: white;
+}
+
+.centerBlue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+.startNowBtn {
+  padding: 1rem;
+  width: 10rem;
+  color: #ffffff;
+  background-color: #424add;
+  border: none;
+  border-radius: 5rem;
+  transition: 0.3s;
+}
+
+.startNowBtn:hover {
+  color: #424add;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* first block */
+
+.centerForm,
+.centerFormSecond,
+.centerThird,
+.centerFourth {
+  /* =================================== switching */
+  padding: 1rem;
+
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.inputContainer,
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+.spanOne {
+  color: #9c9c9c;
+}
+
+.grayLine {
+  margin-top: 3rem;
+  height: 0.1rem;
+  width: 100%;
+  background-color: #c4c4c4;
+}
+
+#btnNextOne,
+#btnNextTwo {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 10rem;
+  color: #ffffff;
+  background-color: #424add;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+#btnNextOne:hover,
+#btnNextTwo:hover {
+  color: #ffffff;
+  background-color: #232471;
+  cursor: pointer;
+}
+
+/*  */
+.firstGreenLine {
+  width: 25%;
+  height: 0.1rem;
+  background-color: aquamarine;
+}
+
+.secondGreenLine {
+  width: 45%;
+  height: 0.1rem;
+  background-color: aquamarine;
+}
+
+.thirdGreenLine {
+  width: 75%;
+  height: 0.1rem;
+  background-color: aquamarine;
+}
+
+#terms {
+  font-size: 1rem;
+}
+
+#fname,
+#lname,
+#email,
+#country {
+  margin-top: 1rem;
+  width: 90%;
+}
+
+#nameThird,
+#surnameThird,
+#countryThird,
+#emailThird {
+  display: flex;
+}
+
+.centerFourth {
+  text-align: center;
+}
+
+#btnYes {
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #424add;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+#btnNo {
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #000000;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+#btnYes:hover {
+  color: #ffffff;
+  background-color: #232471;
+  cursor: pointer;
+}
+
+#btnNo:hover {
+  color: #ffffff;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.cmon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayOne {
+  display: flex;
+}
+
+.displayTwo {
+  display: none;
+}
+.displayThree {
+  display: none;
+}
+.displayFour {
+  display: none;
+}
+
+@media (min-width: 760px) {
+  .container {
+    display: flex;
+    /* height: 10rem; */
+  }
+  .blue {
+    height: 100vh;
+  }
+  .centerForm,
+  .centerFormSecond,
+  .centerThird,
+  .centerFourth {
+    height: 90vh;
+  }
+}

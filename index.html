@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- stationary container "Blue" -->
+      <div class="blue">
+        <div class="google">Google</div>
+        <div class="centerBlue">
+          <div class="miniBlueContainer">
+            <h1>An Amazing Website</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+              dolor quam voluptate reiciendis excepturi cumque nam, quos
+              quibusdam eveniet inventore aspernatur provident voluptatem est,
+              repudiandae qui temporibus iure quisquam commodi.
+            </p>
+            <button class="startNowBtn">Start Now!</button>
+          </div>
+        </div>
+      </div>
+      <!-- dynamic Form container -->
+      <!-- First checkbox container -->
+      <div class="centerForm displayOne">
+        <div class="inputContainer">
+          <span class="spanOne">1/5</span>
+          <h2>What do you usually do after work?</h2>
+          <div class="fetchedData"></div>
+          <div class="grayLine"></div>
+          <input type="submit" value="Next" id="btnNextOne" />
+        </div>
+      </div>
+      <!-- Second form container -->
+      <div class="centerFormSecond displayTwo">
+        <div class="firstGreenLine"></div>
+        <div class="formContainer">
+          <span class="spanOne">2/5</span>
+
+          <form action="subbmit" name="peopleForm" class="secondFormCountries">
+            <h2>Please fill in your details</h2>
+            <input
+              type="text"
+              id="fname"
+              name="first_name"
+              placeholder="Your name.."
+              required
+            />
+            <input
+              type="text"
+              id="lname"
+              name="last_name"
+              placeholder="Your last name.."
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email.."
+              required
+            />
+            <select name="country" id="country"></select>
+            <br />
+            <div class="chekboxInline">
+              <input
+                type="checkbox"
+                name="secondFormCheck"
+                id="secondFormCheck"
+                required
+              />
+              <label id="terms" for="secondFormCheck"
+                >Please accept our Terms and conditions</label
+              >
+            </div>
+            <div class="grayLine"></div>
+            <div class="cmon">
+              <input type="submit" value="Next" id="btnNextTwo" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Third Container -->
+      <div class="centerThird displayThree">
+        <div class="secondGreenLine"></div>
+
+        <span class="spanOne">3/5</span>
+        <h2>Are these details correct?</h2>
+        <p>Please make sure these details are correct</p>
+        <div class="confirmContainer">
+          <!-- js div -->
+
+          <div id="nameThird">
+            <p>Name:</p>
+          </div>
+          <div id="surnameThird">
+            <p>Surname:</p>
+          </div>
+          <div id="emailThird">
+            <p>Email:</p>
+          </div>
+          <div id="countryThird">
+            <p>Country:</p>
+          </div>
+          <!-- js div -->
+        </div>
+        <div class="grayLine"></div>
+        <br />
+        <input class="btn" id="btnNo" type="submit" value="Oops, no" />
+        <br />
+        <input
+          class="btn2"
+          id="btnYes"
+          type="submit"
+          value="I confirm details are accurate"
+        />
+      </div>
+      <!-- Fourth Container -->
+      <div class="centerFourth displayFour">
+        <div class="thirdGreenLine"></div>
+        <span class="spanOne">4/5</span>
+        <h2>Please check your email</h2>
+        <p>
+          We sent you and email with all the required information to complete
+          the registration
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
